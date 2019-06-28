@@ -42,6 +42,7 @@ defmodule Community.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       {:absinthe_ecto, "~> 0.1.3"},
+      {:absinthe_plug, "~> 1.4.7"},
     ]
   end
 
