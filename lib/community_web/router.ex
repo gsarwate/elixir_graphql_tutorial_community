@@ -10,7 +10,7 @@ defmodule CommunityWeb.Router do
 
     forward "/graphiql", Absinthe.Plug.GraphiQL,
       schema: CommunityWeb.Schema,
-      interface: :simple,
+      interface: :playground,
       context: %{pubsub: CommunityWeb.Endpoint}
   end
 end
